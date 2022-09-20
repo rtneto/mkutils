@@ -21,7 +21,7 @@ function! MakeCurrentFile(execute_it)
   execute 'lcd -'
 
   if a:execute_it
-    execute '.' . bin_dir . expand('%<')
+    execute '!.' . bin_dir . expand('%<')
   endif
 
 endfunction
