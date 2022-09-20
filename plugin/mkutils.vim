@@ -20,7 +20,7 @@ function! MakeCurrentFile(execute_it)
   execute 'make'
   execute 'lcd -'
 
-  if execute_it
+  if a:execute_it
     execute '.' . bin_dir . expand('%<')
   endif
 
