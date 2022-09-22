@@ -1,27 +1,46 @@
 *mkutils.txt* utilitie functions for `:make` integration
 
-                 ██               ██   ██  ██
-                ░██              ░██  ░░  ░██
-      ██████████ ░██  ██ ██   ██ ██████ ██ ░██  ██████
-     ░░██░░██░░██░██ ██ ░██  ░██░░░██░ ░██ ░██ ██░░░░
-      ░██ ░██ ░██░████  ░██  ░██  ░██  ░██ ░██░░█████
-      ░██ ░██ ░██░██░██ ░██  ░██  ░██  ░██ ░██ ░░░░░██
-      ███ ░██ ░██░██░░██░░██████  ░░██ ░██ ███ ██████
-     ░░░  ░░  ░░ ░░  ░░  ░░░░░░    ░░  ░░ ░░░ ░░░░░░
+                     ██               ██   ██  ██
+                    ░██              ░██  ░░  ░██
+          ██████████ ░██  ██ ██   ██ ██████ ██ ░██  ██████
+         ░░██░░██░░██░██ ██ ░██  ░██░░░██░ ░██ ░██ ██░░░░
+          ░██ ░██ ░██░████  ░██  ░██  ░██  ░██ ░██░░█████
+          ░██ ░██ ░██░██░██ ░██  ░██  ░██  ░██ ░██ ░░░░░██
+          ███ ░██ ░██░██░░██░░██████  ░░██ ░██ ███ ██████
+         ░░░  ░░  ░░ ░░  ░░  ░░░░░░    ░░  ░░ ░░░ ░░░░░░
 
-    Utilitie functions to turn `:make` easy and practical
-   to use. Includes dev. cycle automation and much more!
+        Utilitie functions to turn `:make` easy and practical
+       to use. Includes dev. cycle automation and much more!
 
-==========================================================
+=====================================================================
 *mkutils-introduction*
 
-  There's not so much to talk about this project, only that
-it's not a tool or a plugin, is a library of functions that
-will help you integrating vim's `:make` command with your
-projects easily. You'll do your own configuration using these
-functions, so you'll need this documentation (i'll try to make
-it really straighforward).
+  There's not so much to talk about this project, is a library
+  of functions that will help you integrating vim's `:make` command
+  with your projects easily. You'll do your own configuration
+  using these functions, so you'll need this documentation (i'll
+  try to make it really straighforward).
 
-==========================================================
+=====================================================================
 *mkutils-usage*
+
+  If you don't want to setup everything by yourself, take a look at
+  *mkutils-defaults* If you want to configure mappings and everything
+  else by yourself you might take a look at *mkutils-functions*
+
+=====================================================================
+*mkutils-defaults*
+
+  These are the default settings for mkutils, if you're lazy, activate
+  them with `let g:mkutils_defaults=1` in your `.vimrc`
+
+  >> Vim~
+  >
+  > nnoremap <F7> :update <CR> :call MakeCurrentFile(0) <CR>
+  > nnoremap <F8> :update <CR> :call MakeCurrentFile(1) <CR>
+
+=====================================================================
+*mkutils-functions*
+
+
 
