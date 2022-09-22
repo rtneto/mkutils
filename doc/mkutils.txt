@@ -1,0 +1,27 @@
+*mkutils.txt* utilitie functions for `:make` integration
+
+                 ██               ██   ██  ██
+                ░██              ░██  ░░  ░██
+      ██████████ ░██  ██ ██   ██ ██████ ██ ░██  ██████
+     ░░██░░██░░██░██ ██ ░██  ░██░░░██░ ░██ ░██ ██░░░░
+      ░██ ░██ ░██░████  ░██  ░██  ░██  ░██ ░██░░█████
+      ░██ ░██ ░██░██░██ ░██  ░██  ░██  ░██ ░██ ░░░░░██
+      ███ ░██ ░██░██░░██░░██████  ░░██ ░██ ███ ██████
+     ░░░  ░░  ░░ ░░  ░░  ░░░░░░    ░░  ░░ ░░░ ░░░░░░
+
+    Utilitie functions to turn `:make` easy and practical
+   to use. Includes dev. cycle automation and much more!
+
+==========================================================
+*mkutils-introduction*
+
+  There's not so much to talk about this project, only that
+it's not a tool or a plugin, is a library of functions that
+will help you integrating vim's `:make` command with your
+projects easily. You'll do your own configuration using these
+functions, so you'll need this documentation (i'll try to make
+it really straighforward).
+
+==========================================================
+*mkutils-usage*
+
