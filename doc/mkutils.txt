@@ -34,10 +34,10 @@
   These are the default settings for mkutils, if you're lazy, activate
   them with `let g:mkutils_defaults=1` in your `.vimrc`
 
-  >> Vim~
-  >
-  > nnoremap <F7> :update <CR> :call MakeCurrentFile(0) <CR>
-  > nnoremap <F8> :update <CR> :call MakeCurrentFile(1) <CR>
+>
+    nnoremap <F7> :update <CR> :call MakeCurrentFile(0) <CR>
+    nnoremap <F8> :update <CR> :call MakeCurrentFile(1) <CR>
+<
 
 =====================================================================
 *mkutils-functions*
